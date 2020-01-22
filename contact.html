@@ -11,42 +11,41 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
-
   <body>
     <nav class="navbar">
-      <span class="nav-hero col-md-2 text-white bg-info">
+      <span class="nav-hero col-md-4 text-white bg-warning">
         <h2>Jarrod Finn</h2>
       </span>
-      <ul class="nav col-md-10 justify-content-left">
-        <li class="nav-item">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="nav-item active">
           <a class="nav-link" href="index.html">
-            <h5 class="text-muted">About Me</h5>
+            <h5 class="text-danger-muted">About Me</h5>
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="portfolio.html">
-            <h5 class="text-muted">Portfolio</h5>
+            <h5 class="text-muted-danger">Portfolio</h5>
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="contact.html">
-            <h5 class="text-muted">Contact</h5>
+            <h5 class="text-danger-muted">Contact</h5>
           </a>
         </li>
       </ul>
     </nav>
     <div class="container float-none">
       <div class="wrapper">
-        <div class="contact text-info">
-          <h2>Contact</h2>
+        <div class="contact text-danger">
+          <h2>CONTACT</h2>
           <hr />
         </div>
 
         <form>
           <div class="form-group">
-            <label for="exampleInputName1">Name</label>
+            <label class="text-warning" for="exampleInputName1">Name</label>
             <input
               type="text"
               class="form-control"
@@ -56,7 +55,7 @@
             />
           </div>
           <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
+            <label class="text-warning" for="exampleInputEmail1">Email</label>
             <input
               type="email"
               class="form-control"
@@ -66,14 +65,14 @@
           </div>
 
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
+            <label class="text-warning" for="exampleFormControlTextarea1">Message</label>
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-info">Submit</button>
+          <button type="submit" class="btn btn-danger">Submit</button>
         </form>
       </div>
     </div>

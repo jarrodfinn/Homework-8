@@ -1,54 +1,56 @@
-* {
-    box-sizing: border-box;
-  }
+/* * {
+  box-sizing: border-box;
+} */
 
-body{
-    background-color: darkgray;
+body {
+  background-color: darkgray;
 }
 
 .navbar {
-    background-color: #ffffff;
-    border-bottom: 3px solid #eeeeee;
-    padding: 0px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+  background-color: #ffffff;
+  border-bottom: 3px solid #eeeeee;
+  padding: 0px;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 .nav-hero {
-    text-align: center;
-    padding: 15px;
-    margin-bottom: -3px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: -3px;
 }
 .nav {
-    list-style: none;
-    display : inline-flex;
+  list-style: none;
+  display: inline-flex;
 }
 
 .card {
-    background-color: #666666;  
+  background-color: #666666;
 }
 
 .container {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: justify;
-    border: #666666;
-    background-color: white;
-    margin-top: 50px;
+  border: #666666;
+  background-color: white;
+  margin-top: 50px;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 .wrapper {
-    padding: 20px;
+  padding: 20px;
+  border-radius: 125px;
 }
 
-.image-thumbnail {
-    padding: .25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
+.imagetext1 {
+  margin: 183px 0 -221px -4px;
+  left: 4px;
+  width: 200px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  background: #4aaaa5;
+  color: white;
+  bottom: 55px;
 }
-
-.imagetext{
+  .imagetext2 {
     margin: 183px 0 -221px -4px;
     left: 4px;
     width: 200px;
@@ -57,14 +59,49 @@ body{
     position: relative;
     background: #4aaaa5;
     color: white;
-    bottom: 80px;
-}
-
+    bottom: 55px;
+  }
+    
+.imagetext3 {
+    margin: 183px 0 -221px -4px;
+    left: 4px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    background: #4aaaa5;
+    color: white;
+    bottom: 55px;
+  }
+  .imagetext4 {
+    margin: 183px 0 -221px -4px;
+    left: 4px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    background: #4aaaa5;
+    color: white;
+    bottom: 55px;
+  }
+  .imagetext5 {
+    margin: 183px 0 -221px -4px;
+    left: 4px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    background: #4aaaa5;
+    color: white;
+    bottom: 55px;
+  }
+    
+  
 @media screen and (max-width: 768px) {
-    .nav {
+  /* .nav {
         justify-content: center;
-    }    
-    .container {
+    }     */
+  /* .container {
         width: 600px;
-    }
+    } */
 }
