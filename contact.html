@@ -1,66 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <title>Contact Jarrod Finn</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/assets/css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <span class="nav-hero col-md-3 text-white bg-warning">
-            <h2 class="text-center">Jarrod Finn</h2>
-        </span>
-        <ul class="nav nav-pills nav-stacked">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                    <h5 class="text-muted">About Me</h5>
-                </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">
-                    <h5 class="text-muted">Portfolio</h5>
-                </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="contact.html">
-                    <h5 class="text-muted">Contact</h5>
-                </a>
-            </li>
-        </ul>
+      <span class="nav-hero col-md-3 text-white bg-warning">
+        <h2 class="text-center text-underline"><u>Jarrod Finn</u></h2>
+        <h6 class="text-center text-primary">(816) 519-7494</h6>
+        <a href="mailto:samurod@gmail.com?subject=Contact Jarrod Finn"
+          ><h6 class="text-center text-danger">samurod@gmail.com</h6></a
+        >
+      </span>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">
+            <h5 class="text-muted">About Me</h5>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">
+            <h5 class="text-muted">Portfolio</h5>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">
+            <h5 class="text-muted">Contact</h5>
+          </a>
+        </li>
+      </ul>
     </nav>
     <div class="container float-none">
-        <div class="wrapper">
-            <div class="contact text-danger">
-                <h2>CONTACT ME <small> to stay connected</small></h2>
-                <hr />
-            </div>
+      <div class="wrapper">
+        <div class="contact text-danger">
+          <h2>CONTACT ME <small> to stay connected</small></h2>
+          <hr />
+        </div>
 
-            <form action="mailto:samurod@gmail.com?subject=Contact Jarrod Finn" method="post" enctype="text/plain">
-                <div class="form-group">
-                    <label class="text-danger" for="exampleInputName1">What Is Your Name?</label>
-                    <input id="nameSubmit" type="text" name="Name " class="form-control" id="exampleInputName1" aria-describedby="emailHelp"
-                        placeholder="Enter full name" />
-                </div>
-                <div class="form-group">
-                    <label class="text-danger" for="exampleInputEmail1">What Is Your Email?</label>
-                    <input id="emailSubmit" type="email" name="Email " class="form-control" id="exampleInputEmail1"
-                        placeholder="Enter email address" />
-                </div>
+        <form
+          action="mailto:samurod@gmail.com?subject=Contact Jarrod Finn"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-group">
+            <label class="text-danger" for="exampleInputName1"
+              >What Is Your Name?</label
+            >
+            <input
+              id="nameSubmit"
+              type="text"
+              name="Name "
+              class="form-control"
+              id="exampleInputName1"
+              aria-describedby="emailHelp"
+              placeholder="Enter full name"
+            />
+          </div>
+          <div class="form-group">
+            <label class="text-danger" for="exampleInputEmail1"
+              >What Is Your Email?</label
+            >
+            <input
+              id="emailSubmit"
+              type="email"
+              name="Email "
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Enter email address"
+            />
+          </div>
 
-                <div class="form-group">
-                    <label class="text-danger" for="exampleFormControlTextarea1">Leave Me A Message!</label>
-                    <textarea class="form-control" type="text" name="Comment " id="exampleFormControlTextarea1" rows="5"></textarea>
-                </div>
-                <button id="contactSubmit" type="submit" class="btn btn-warning text-danger">Submit</button>
-            </form>
-            
-            <!-- <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label class="text-danger" for="exampleFormControlTextarea1"
+              >Leave Me A Message!</label
+            >
+            <textarea
+              class="form-control"
+              type="text"
+              name="Comment "
+              id="exampleFormControlTextarea1"
+              rows="5"
+              placeholder="Leave your message here"
+            ></textarea>
+          </div>
+          <button
+            id="contactSubmit"
+            type="submit"
+            class="btn btn-warning text-danger"
+          >
+            Submit
+          </button>
+        </form>
+
+        <!-- <form action="mailto:someone@example.com" method="post" enctype="text/plain">
                 Name:<br>
                 <input type="text" name="name"><br>
                 E-mail:<br>
@@ -70,24 +113,28 @@
                 <input type="submit" value="Send">
                 <input type="reset" value="Reset">
                 </form> -->
-
-        </div>
+      </div>
     </div>
     <div class="card fixed-bottom">
-        <span class="border-top border-info"></span>
+      <span class="border-top border-info"></span>
 
-        <div class="card-footer text-center text-light">Copyright©</div>
+      <div class="card-footer text-center text-light">Copyright©</div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
