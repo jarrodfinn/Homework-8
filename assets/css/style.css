@@ -1,6 +1,6 @@
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 body {
   background-color: darkgray;
@@ -8,16 +8,15 @@ body {
 
 .navbar {
   background-color: #ffffff;
-  border-bottom: 3px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   padding: 0px;
   font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 .nav-hero {
-  text-align: center;
-  padding: 15px;
-  margin-bottom: -3px;
+  padding: 25px;
 }
+
 .nav {
   list-style: none;
   display: inline-flex;
@@ -32,76 +31,24 @@ body {
   background-color: white;
   margin-top: 50px;
   font-family: "Georgia", Times, "Times New Roman", serif;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .wrapper {
   padding: 20px;
-  border-radius: 125px;
 }
 
-.imagetext1 {
-  margin: 183px 0 -221px -4px;
-  left: 4px;
-  width: 200px;
-  padding: 5px;
-  text-align: center;
-  position: relative;
-  background: #4aaaa5;
-  color: white;
-  bottom: 55px;
-}
-  .imagetext2 {
-    margin: 183px 0 -221px -4px;
-    left: 4px;
-    width: 200px;
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    background: #4aaaa5;
-    color: white;
-    bottom: 55px;
-  }
-    
-.imagetext3 {
-    margin: 183px 0 -221px -4px;
-    left: 4px;
-    width: 200px;
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    background: #4aaaa5;
-    color: white;
-    bottom: 55px;
-  }
-  .imagetext4 {
-    margin: 183px 0 -221px -4px;
-    left: 4px;
-    width: 200px;
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    background: #4aaaa5;
-    color: white;
-    bottom: 55px;
-  }
-  .imagetext5 {
-    margin: 183px 0 -221px -4px;
-    left: 4px;
-    width: 200px;
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    background: #4aaaa5;
-    color: white;
-    bottom: 55px;
-  }
     
   
-@media screen and (max-width: 768px) {
-  /* .nav {
-        justify-content: center;
-    }     */
-  /* .container {
-        width: 600px;
-    } */
-}
+  /* @media (min-width: 576px) { ... }
+  
+  @media (min-width: 768px) { ... }
+  
+  @media (min-width: 992px) { ... }
+  
+  @media (min-width: 1200px) { ... } */
